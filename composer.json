@@ -1,0 +1,21 @@
+{
+    "name": "cms_framework_seed/calendar",
+    "description": "Calendar package for CMS SEED",
+    "keywords": ["cms_framework_seed", "calendar"],
+    "license": "MIT",
+    "homepage": "https://github.com/Lavalite/Calendar",
+    "authors": [
+        {
+            "name": "30Hills",
+            "email": "info@30hills.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": { 
+            "Cms_Framework_Seed\\Calendar\\": "src"
+        }
+    }
+}
